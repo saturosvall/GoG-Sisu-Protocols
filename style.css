@@ -598,19 +598,19 @@ nav .menu {
 }
 
 .descr {
-  display: block;
+  /* display: block; */
   color: #fff;
   font-size: 3.2em;
   margin: 2em 1em;
   padding: 0px 1em;
   order: -1;
 }
-.h2p-content-section.planet-cards > .info-card{
+.h2p-content-section.planet-cards > .info-card {
   transition: transform 0.3s box-shadow 0.3s;
 }
 .h2p-content-section.planet-cards > .info-card:hover {
   transform: translateY(0.5%);
-  box-shadow: inset 0 -4rem 8rem hsla(226, 97%, 66%, 0.205);
+  box-shadow: inset 0 -4rem 8rem hsla(323, 97%, 66%, 0.144);
 }
 .h2p-content-section {
   display: flex;
