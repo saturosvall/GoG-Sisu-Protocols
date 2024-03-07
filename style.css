@@ -383,6 +383,7 @@ nav .menu {
 }
 .thumbnail .item .content .description {
   font-weight: 300;
+  color: #000000;
 }
 /* arrows */
 .arrows {
@@ -660,13 +661,22 @@ nav .menu {
   font-size: 40px;
   font-weight: bold;
 }
+/* TRYOUT for infocards text*/
 .h2p-content-section .info-card p {
   font-size: 1em;
   line-height: 1.5;
-  /* background: #fff; */
+  text-align:left;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+}
+/* ORIGINAL info card text
+.h2p-content-section .info-card p {
+  font-size: 1em;
+  line-height: 1.5;
+  /* background: #fff; 
   padding: 0px 10px;
   margin-bottom: 1em;
-}
+} */
 
 .footer-set-element-size {
   font-size: 3vw;
