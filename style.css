@@ -618,6 +618,7 @@ nav .menu {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  margin-bottom: 20vh;
 }
 .h2p-content-section .info-card {
   box-sizing: border-box;
