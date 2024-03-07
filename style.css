@@ -655,6 +655,11 @@ nav .menu {
   /* background: #fff; */
   color: hsl(330, 83%, 32%);
 }
+/*Alphabet highlight*/
+.h2p-content-section .info-card h2 .highlight {
+  font-size: 40px;
+  font-weight: bold;
+}
 .h2p-content-section .info-card p {
   font-size: 1em;
   line-height: 1.5;
