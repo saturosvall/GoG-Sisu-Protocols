@@ -637,6 +637,10 @@ nav .menu {
   transform: translateY(-0.5%);
   box-shadow: 0 4rem 8rem hsl(223, 99%, 62%);
 }
+.h2p-content-section .threat-card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem hsla(342, 76%, 52%, 0.932);
+}
 .h2p-content-section .info-card img {
   width: 100%;
   border-radius: 0.8em;
