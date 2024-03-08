@@ -52,23 +52,23 @@ class Robot {
             y: 0
         }
 
-        // Event listener for screen touches for robot tracking eye
-        this.canvas.addEventListener('touchmove', e => {
-            // prevent default touch behavior like scrolling
-            e.preventDefault();
-            // retreave the touch coordinates relative to the canvas
-            let touch = e.touches[0];
-            let canvasRect = this.canvas.getBoundingClientRect(); // built in to get bounding client coordinates on designated rectanglle (canvas here)
-            this.mouse.x = touch.clientX - canvasRect.left;
-            this.mouse.y = touch.clientY - canvasRect.top;
-            // console.log('touch');
-            this.tracking = true;
-        });
+        // // Event listener for screen touches for robot tracking eye
+        // this.canvas.addEventListener('touchmove', e => {
+        //     // prevent default touch behavior like scrolling
+        //     e.preventDefault();
+        //     // retreave the touch coordinates relative to the canvas
+        //     let touch = e.touches[0];
+        //     let canvasRect = this.canvas.getBoundingClientRect(); // built in to get bounding client coordinates on designated rectanglle (canvas here)
+        //     this.mouse.x = touch.clientX - canvasRect.left;
+        //     this.mouse.y = touch.clientY - canvasRect.top;
+        //     // console.log('touch');
+        //     this.tracking = true;
+        // });
 
-        this.canvas.addEventListener('touchend', e => {
-            // console.log('no touch');
-            this.tracking = false;
-        });
+        // this.canvas.addEventListener('touchend', e => {
+        //     // console.log('no touch');
+        //     this.tracking = false;
+        // });
 
         this.canvas.addEventListener('mousemove', e => {
             // console.log(this.angle);

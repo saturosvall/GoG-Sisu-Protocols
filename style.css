@@ -90,13 +90,12 @@ nav .menu {
 }
 
 .wrapper {
-  height: 100%;
+  /* height: 100%; */
   box-shadow: 0 13px 25px hsl(223, 99%, 62%);
 }
 
 .container {
   width: 100%;
-  height: auto;
   margin: 0 auto;
   padding: 1em 1em;
   margin: 1em 1em;
@@ -120,9 +119,8 @@ nav .menu {
 }
 
 .InnerDiv {
-  height: 45%;
+  /* height: auto; */
   width: 100%;
-  /* background-image: url(./assets/img/img3.png); */
   background-size: auto;
   display: flex;
   align-items: center;
