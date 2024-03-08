@@ -43,7 +43,6 @@
   transition: 0.3s;
 }
 #actionButton {
-  /* To put a hybrid image of the two states */
   background-image: url(./assets/img/icons/actionBtnInitialState.png);
   /* background-size: contain; */
   background-position: center;
@@ -103,8 +102,6 @@
   transform: translate(-50%, -50%);
   width: 60vw;
   height: auto;
-  /* max-width: 65%;
-  max-height: 65%; */
   position: absolute;
 }
 
