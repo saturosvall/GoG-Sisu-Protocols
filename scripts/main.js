@@ -60,10 +60,10 @@ class Game {
         this.initializeButtonListeners();
         this.initializeKeyboardControls();
 
-        window.addEventListener('touchend', e => {
-            // touch controls logic identic to click event
-            this.handleGameEventRelatedToCollision(e);
-        });
+        // window.addEventListener('touchend', e => {
+        //     // touch controls logic identic to click event
+        //     this.handleGameEventRelatedToCollision(e);
+        // });
 
         window.addEventListener('click', e => {
             this.handleGameEventRelatedToCollision(e);
@@ -86,12 +86,12 @@ class Game {
         this.fullScreenButton.addEventListener('click', () => this.toggleFullScreen());
         this.helpButton.addEventListener('click', () => this.toggleHelp());
 
-        // Adding event listeners for touchend
-        this.resetButton.addEventListener('touchend', () => this.startRestartGame());
-        this.pauseButton.addEventListener('touchend', () => this.togglePause());
-        this.actionButton.addEventListener('touchend', () => this.toggleAction());
-        this.fullScreenButton.addEventListener('touchend', () => this.toggleFullScreen());
-        this.helpButton.addEventListener('touchend', () => this.toggleHelp());
+        // // Adding event listeners for touchend
+        // this.resetButton.addEventListener('touchend', () => this.startRestartGame());
+        // this.pauseButton.addEventListener('touchend', () => this.togglePause());
+        // this.actionButton.addEventListener('touchend', () => this.toggleAction());
+        // this.fullScreenButton.addEventListener('touchend', () => this.toggleFullScreen());
+        // this.helpButton.addEventListener('touchend', () => this.toggleHelp());
     }
 
     // Initializing Keyboard controls event listener for keydown
