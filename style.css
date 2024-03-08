@@ -656,6 +656,14 @@ nav .menu {
   /* background: #fff; */
   color: hsl(330, 83%, 32%);
 }
+/* H3 title for destroy/collect info*/
+.h2p-content-section .info-card h3 {
+  margin: 15px 0px;
+  padding: 0px 0px;
+  font-size: 15px;
+  /* background: #fff; */
+  color: hsl(330, 83%, 32%);
+}
 /*Alphabet highlight*/
 .h2p-content-section .info-card h2 .highlight {
   font-size: 40px;
