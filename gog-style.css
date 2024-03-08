@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#canvas1 {
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-height: 100%;
+  font-family: Bangers, cursive;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.controls {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+.controls button {
+  width: 6vw;
+  max-width: 60px;
+  height: 6vw;
+  max-height: 60px;
+  border-radius: 50px;
+  background: transparent;
+
+  margin: 0.8vw 0;
+  box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.473);
+  border: 10px solid transparent;
+  transition: 0.3s;
+}
+#actionButton {
+  /* To put a hybrid image of the two states */
+  background-image: url(./assets/img/icons/actionBtnInitialState.png);
+  /* background-size: contain; */
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+#helpButton {
+  background-image: url(./assets/img/icons/buttonH1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+#pauseButton {
+  background-image: url(./assets/img/icons/buttonP2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+#resetButton {
+  background-image: url(./assets/img/icons/buttonR1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+#fullScreenButton {
+  background-image: url(./assets/img/icons/buttonFullScreen1.png);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.controls button:hover,
+.controls button:active,
+.controls button:focus {
+  background: #aff8f82f;
+  box-shadow: 4px 4px 4px black;
+  text-shadow: 2px 2px 2px black;
+  transition: 0.3s;
+}
+
+.menu-images > img {
+  border-radius: 25px;
+  box-shadow: 0px 0px 45px 20px rgba(0, 0, 0, 0.555);
+  background: linear-gradient(
+    270deg,
+    rgba(131, 58, 180, 0.61) 0%,
+    rgba(253, 29, 115, 0.699) 50%,
+    rgba(69, 182, 252, 0.589) 100%
+  );
+  border: 10px solid transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: auto;
+  /* max-width: 65%;
+  max-height: 65%; */
+  position: absolute;
+}
+
+#testPauseMenu,
+#level1PauseMenu,
+#level2PauseMenu,
+#level3PauseMenu,
+#level4PauseMenu,
+#level5PauseMenu {
+  z-index: 2;
+}
+
+#helpImage {
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .controls {
+    left: 1%;
+  }
+  .controls button {
+    background-size: contain;
+    width: 5vw;
+    height: 5vw;
+  }
+}
