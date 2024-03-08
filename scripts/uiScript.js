@@ -90,12 +90,12 @@ class UI {
 
                 message1 = 'SISU Protocols Succeeded!';
                 message2 = 'The Planet is Safe and the shield is now active!!';
-                message3 = 'Press R to restart          Press H to Help Menu';
+                message3 = 'Moving to next Level          Press H to Help Menu';
                 this.playGameOverSound(true)
             } else {
                 message1 = 'Mission Failed!';
                 message2 = 'This planet is lost!';
-                message3 = 'Press R to restart          Press H to Help Menu';
+                message3 = 'Press R to try again !!          Press H to Help Menu';
                 this.playGameOverSound(false)
             }
             context.font = '100px ' + this.fontFamily;
