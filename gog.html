@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="./assets/GoG-favicon.ico" />
+    <title>GoG: the SISU Protocols</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./gog-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hidden">
+        <!-- Player / Robot -->
+        <img src="./assets/img/icons/robot_pose1_40X47.png" id="RobotLives" />
+        <img src="./assets/Robot images/body.png" alt="body" id="body" />
+        <img
+          src="./assets/Robot images/bodySprite.png"
+          alt="bodySprite"
+          id="bodySprite"
+        />
+        <img src="./assets/Robot images/eye1.png" alt="eye1" id="eye1" />
+        <img src="./assets/Robot images/eye2.png" id="eye2" />
+        <!-- <img src="./assets/Robot images/eye2red.png" id="eye2red" />
+        <img src="./assets/Robot images/eye2blue.png" id="eye2blue" /> -->
+        <img
+          src="./assets/Robot images/reflection.png"
+          alt="reflection"
+          id="reflection"
+        />
+        <img
+          src="./assets/Robot images/detectorLight.png"
+          alt="detectorLight"
+          id="detectorLight"
+        />
+
+        <!-- Backgrounds -->
+        <img
+          src="./assets/Backgrounds/background_images/bg08-min.jpg"
+          id="level1Background"
+        />
+        <img
+          src="./assets/Backgrounds/background_images/space.jpg"
+          id="level2Background"
+        />
+        <img
+          src="./assets/Backgrounds/background_images/bg08-min.png"
+          id="level3Background"
+        />
+        <img
+          src="./assets/Backgrounds/background_images/bg0111.png"
+          id="level4Background"
+        />
+        <img
+          src="./assets/Backgrounds/background_images/bgFinal2.jpg"
+          id="level5Background"
+        />
+
+        <!-- Planets -->
+        <img
+          src="./assets/Backgrounds/planet_images/planet2.png"
+          id="level1Planet"
+        />
+        <img
+          src="./assets/Backgrounds/planet_images/planet1.png"
+          id="level2Planet"
+        />
+        <img
+          src="./assets/Backgrounds/planet_images/planet3.png"
+          id="level3Planet"
+        />
+        <img
+          src="./assets/Backgrounds/planet_images/planet4.png"
+          id="level4Planet"
+        />
+        <img
+          src="./assets/Backgrounds/planet_images/planet5_2-min.png"
+          id="level5Planet"
+        />
+
+        <!-- Layers -->
+        <img src="./assets/Backgrounds/layers/layer1-min.png" id="layer1" />
+        <!-- Treats -->
+        <img
+          src="./assets/Threats images/asteroid.png"
+          id="asteroid"
+          alt="asteroid"
+        />
+        <img
+          src="./assets/Threats images/babyAsteroid.png"
+          id="babyAsteroid"
+          alt="babyAsteroid"
+        />
+        <img
+          src="./assets/Threats images/aliens.png"
+          id="aliens"
+          alt="aliens"
+        />
+        <img
+          src="./assets/Threats images/ork21-min.png"
+          id="spaceOrk"
+          alt="spaceOrk"
+        />
+        <img
+          src="./assets/Threats images/AstroMechBat_spritesheet 95X94.png"
+          id="astroMechaBat"
+          alt="astroMechaBat"
+        />
+        <img
+          src="./assets/Threats images/SpaceHornet_sprit96-8X100-modified.png"
+          id="spaceHornet"
+          alt="spaceHornet"
+        />
+        <img
+          src="./assets/Threats images/mechaPiraijat2-min.png"
+          id="mechaPiraijat"
+          alt="mechaPiraijat"
+        />
+        <img
+          src="./assets/Threats images/MechaHivesSprites2.png"
+          id="MechaHives"
+          alt="MechaHives"
+        />
+        <img src="./assets/Threats images/hiveYounglings2-min.png" id="mechaPikeYounglings" alt="mechaPikeYounglings" />
+
+        <!-- Explosions -->
+        <img
+          src="./assets/Explosions images/explosions.png"
+          id="explosions"
+          alt="explosions"
+        />
+        <img
+          src="./assets/Explosions images/dissapear.png"
+          id="disappear"
+          alt="disappear"
+        />
+        <img
+          src="./assets/Explosions images/smokeExplosion.png"
+          id="smokeExplosion"
+          alt="smokeExplosion"
+        />
+        <!-- Menu images if we're going to use ui.drawImage() -->
+        <img src="./assets/Menu images/helpMenu.jpg" id="helpMenu" />
+        <!-- <img
+          src="./assets/Menu images/pauseMenuLevel1test.png"
+          id="testPauseMenuLevel1"
+        /> -->
+      </div>
+      <div class="menu-images">
+        <!-- menu -->
+        <img
+          src="./assets/Menu images/pauseMenuLevel1.jpg"
+          id="level1PauseMenu"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/Menu images/pauseMenuLevel2.jpg"
+          id="level2PauseMenu"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/Menu images/pauseMenuLevel3.jpg"
+          id="level3PauseMenu"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/Menu images/pauseMenuLevel4.jpg"
+          id="level4PauseMenu"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/Menu images/pauseMenuLevel5.jpg"
+          id="level5PauseMenu"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/Menu images/helpMenu.jpg"
+          id="helpImage"
+          class="hidden menu-image"
+        />
+      </div>
+      <!-- The canvas element -->
+      <canvas id="canvas1"></canvas>
+      <!-- Control buttons -->
+      <div class="controls">
+        <button id="fullScreenButton"></button>
+        <button id="resetButton"></button>
+        <button id="helpButton"></button>
+        <button id="pauseButton"></button>
+        <button id="actionButton"></button>
+      </div>
+    </div>
+
+    <!-- Sounds -->
+    <audio src="./assets/Sound effects/explosion1.wav" id="explosion1"></audio>
+    <audio src="./assets/Sound effects/explosion2.wav" id="explosion2"></audio>
+    <audio src="./assets/Sound effects/explosion3.wav" id="explosion3"></audio>
+    <audio src="./assets/Sound effects/explosion4.wav" id="explosion4"></audio>
+    <audio src="./assets/Sound effects/explosion5.wav" id="explosion5"></audio>
+    <audio src="./assets/Sound effects/explosion6.wav" id="explosion6"></audio>
+    <audio
+      src="./assets/Sound effects/disappear1-quaivat-Sound Effect from Pixabay.mp3"
+      id="disappear1"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/disappear2-lasergun-Sound Effect from Pixabay.mp3"
+      id="astroMechaBatHitSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/disappear3-space-insect-Sound Effect from Pixabay.mp3"
+      id="spaceHornetHitSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/monster-roar-6985.mp3"
+      id="monsterRoar"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/troll-roars-pixabay.mp3"
+      id="orkHit"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/space-laser-from-Pixabay.mp3"
+      id="asteroidHit"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/lazercannon-37980.mp3"
+      id="piraajaHitSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/robotic-monster-roar-96249.mp3"
+      id="mechaHiveHitSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/cinematic-sound-braaam-sample-3-from-pixabay-by-chakong-audio-brass-trailer-171330.mp3"
+      id="mechaHiveEntrenceSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/laser6quick-47339.mp3"
+      id="mechaPikeYounglingsHitSound"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/GameOver-win-epic-hybrid-logo-Sound-effect-by-Ivan-Luzan-from-Pixabay.mp3"
+      id="gameOverWin"
+    ></audio>
+    <audio
+      src="./assets/Sound effects/GameOver-Lost-scary-game-effect-By-UNIVERSFIELD-from-Pixabay.mp3"
+      id="gameOverLoss"
+    ></audio>
+
+    <!-- Game scripts -->
+    <script src="./scripts/backgroundScript.js"></script>
+    <script src="./scripts/planetScript.js"></script>
+    <script src="./scripts/threats.js"></script>
+    <script src="./scripts/explosionsScript.js"></script>
+    <script src="./scripts/robot.js"></script>
+    <script src="./scripts/floatingStrings.js"></script>
+    <script src="./scripts/uiScript.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
