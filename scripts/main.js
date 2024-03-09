@@ -688,7 +688,7 @@ window.addEventListener('load', function () {
     ctx.lineWidth = 3; // Overriding the default lineWidth
 
     // const game = new Game(canvas, ctx);
-    let currentLevel = new Level1(canvas, ctx); // Start with Level 1
+    let currentLevel = new Level5(canvas, ctx); // Start with Level 1
     let transitionTimeout = null;
 
     let lastTime = 0;
@@ -703,35 +703,51 @@ window.addEventListener('load', function () {
             // Transition to the next level based on the current level
             switch (currentLevel.constructor) {
                 case Level1:
+                    clearTimeout(transitionTimeout);
                     // setting a timeout for transition for each
                     transitionTimeout = setTimeout(() => {
                         currentLevel = new Level2(canvas, ctx);
-                        transitionTimeout = null;
-                    }, 7000);
+                        currentLevel.ui.levelEnterSound.play();
+                        // transitionTimeout=null;
+                    }, 6100);
+                    transitionTimeout = null;
                     break;
 
                 case Level2:
+                    clearTimeout(transitionTimeout);
                     transitionTimeout = setTimeout(() => {
                         currentLevel = new Level3(canvas, ctx);
-                        transitionTimeout = null;
-                    }, 7000);
+                        currentLevel.ui.levelEnterSound.play();
+                    }, 6100);
+                    transitionTimeout = null;
                     break;
                 case Level3:
+                    clearTimeout(transitionTimeout);
                     transitionTimeout = setTimeout(() => {
                         currentLevel = new Level4(canvas, ctx);
-                        transitionTimeout = null;
-                    }, 7000);
+                        currentLevel.ui.levelEnterSound.play();
+                    }, 6100);
+                    transitionTimeout = null;
                     break;
                 case Level4:
+                    clearTimeout(transitionTimeout);
                     transitionTimeout = setTimeout(() => {
                         currentLevel = new Level5(canvas, ctx);
-                        transitionTimeout = null;
-                    }, 7000);
+                        currentLevel.ui.levelEnterSound.play();
+                    }, 6100);
+                    transitionTimeout = null;
                     break;
                 case Level5:
                     // we need to add a farewell message on the ui 
+                    clearTimeout(transitionTimeout);
+                    transitionTimeout = setTimeout(() => {
+                        currentLevel.ui.gameEndImage.classList.remove('hidden');
+                        currentLevel.ui.levelEnterSound.play();
+                    }, 9200);
+                    transitionTimeout = null;
                     break;
                 default:
+                    clearTimeout(transitionTimeout);
                     // break if something unexpected happen
                     console.log('something happens a bug escaped!!');
                     break;
