@@ -10,6 +10,8 @@ class UI {
         this.gameOverLossSound = document.getElementById('gameOverLoss');
         this.pauseImage = document.getElementById('level1PauseMenu');
         this.helpImage = document.getElementById('helpImage');
+        this.gameEndImage = document.getElementById('gameEnd');
+        this.levelEnterSound = document.getElementById('levelEnter');
     }
     playGameOverSound(isWin) {
         if (isWin) {
@@ -35,11 +37,11 @@ class UI {
             const percentage = ((remainingTime / this.game.timeLimit) * 100).toFixed(0); // toFixed method formats a number using fixed point notation (after decimal point)
             // Style with condition for percentage
             if (percentage > 25) {
-                context.fillText('Defence: ' + percentage + ' %', 20, 80);
+                context.fillText('Defense: ' + percentage + ' %', 20, 80);
             } else {
                 context.save();
                 context.fillStyle = 'red';
-                context.fillText('Defence: ' + percentage + ' %', 20, 80);
+                context.fillText('Defense: ' + percentage + ' %', 20, 80);
                 context.restore();
             }
 
