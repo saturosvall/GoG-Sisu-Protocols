@@ -688,7 +688,7 @@ window.addEventListener('load', function () {
     ctx.lineWidth = 3; // Overriding the default lineWidth
 
     // const game = new Game(canvas, ctx);
-    let currentLevel = new Level5(canvas, ctx); // Start with Level 1
+    let currentLevel = new Level1(canvas, ctx); // Start with Level 1
     let transitionTimeout = null;
 
     let lastTime = 0;
