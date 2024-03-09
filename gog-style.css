@@ -43,6 +43,7 @@
   transition: 0.3s;
 }
 #actionButton {
+  /* To put a hybrid image of the two states */
   background-image: url(./assets/img/icons/actionBtnInitialState.png);
   /* background-size: contain; */
   background-position: center;
@@ -105,7 +106,6 @@
   position: absolute;
 }
 
-#testPauseMenu,
 #level1PauseMenu,
 #level2PauseMenu,
 #level3PauseMenu,
@@ -116,6 +116,10 @@
 
 #helpImage {
   z-index: 3;
+}
+
+#gameEnd {
+  z-index: 4;
 }
 
 @media screen and (max-width: 768px) {
