@@ -746,13 +746,15 @@ footer {
   transition: all 0.3s ease;
 }
 .footer-ul li a:hover {
-  background-color: #f6f8fa;
-  color: #000;
-  padding: 3px;
+  padding: 0.3em;
   margin: 0 5px 0 5px;
   letter-spacing: 4px;
-  border-radius: 5%;
+  border-radius: 5em;
   font-weight: bold;
+  background-image: linear-gradient(to right, #3f8cd6, #38deec);
+  color: #000;
+  margin: 0.7em 0.4em;
+  box-shadow: 0 1px 25px hsl(223, 99%, 62%);
 }
 .some .fab {
   width: 35px;
@@ -760,10 +762,10 @@ footer {
   border-radius: 50%;
   text-align: center;
   line-height: 35px;
-  font-size: 20px;
+  font-size: 1em;
   color: rgb(41, 18, 68);
   background: #fff;
-  margin-right: 15px;
+  margin-right: 1em;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -772,8 +774,10 @@ footer {
   height: 45px;
   line-height: 45px;
   text-align: center;
-  background-color: #f6f8fa;
-  color: rgb(41, 18, 68);
+  background-image: linear-gradient(to right, #3f8cd6, #38deec);
+  /* color: #000; */
+  color: #f6f8fa;
+  /* color: rgb(41, 18, 68); */
   margin: 0 5px 0 5px;
 }
 
