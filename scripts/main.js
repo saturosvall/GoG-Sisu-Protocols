@@ -38,7 +38,7 @@ class Game {
 
         this.smokeExplosionPool = [];
         this.maxSmokeExplosion = 30;
-        this.createSmokeExplosions()
+        this.createSmokeExplosions();
 
         this.threatPool = [];
 
