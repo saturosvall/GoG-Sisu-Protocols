@@ -18,7 +18,6 @@ class Game {
         this.robotIsAlive = !this.gameOver ? true : false;  // later to activate animation explosion
         this.ui = new UI(this);
         this.score = 0;
-        // this.currentLevel = new Level1(this);
 
         this.explosion1 = document.getElementById('explosion1');
         this.explosion2 = document.getElementById('explosion2');
