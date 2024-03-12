@@ -632,7 +632,7 @@ nav .menu {
 }
 .h2p-content-section .info-card {
   box-sizing: border-box;
-  flex: 0 0 30em;
+  flex: 0 25em;
   background: #fff;
   /* background: transparent; */
   border-radius: 0.7em;
