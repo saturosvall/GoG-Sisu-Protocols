@@ -51,7 +51,7 @@ nav .menu {
 .menu ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.3rem;
   letter-spacing: 0.1em;
   font-weight: 500;
   padding: 0.5em 0.6em;
@@ -805,9 +805,9 @@ footer {
   }
 
   .menu ul li {
-    margin-left: 7px;
+    margin-left: 5px;
     text-align: left;
-    padding-left: 60px;
+    padding-left: 2em;
   }
 
   li .MobNavBtns {
