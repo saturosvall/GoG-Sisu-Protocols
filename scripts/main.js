@@ -5,7 +5,6 @@ class Game {
         this.width = this.canvas.width;
         this.height = this.canvas.height;
 
-        // this.floatingstrings = new FloatingStrings();   // *** not necessary ***
         this.floatingstringsArray = [];
         this.background = new Background(this);
         this.planet = new Planet(this); // Creating an instence of planet
@@ -171,11 +170,6 @@ class Game {
             if (this.threatPool[i].free && this.threatPool[i] instanceof MechaPikeYounglings) return this.threatPool[i];
         }
     }
-    // handleMechaYoungling(threat) {
-    //     if (!this.gameOver && !this.pause && threat) {
-    //         threat.start();
-    //     }
-    // }
 
     createExplosions() {
         // fill the explosion pool
@@ -380,9 +374,6 @@ class Game {
         this.createSmokeExplosions()
         this.threatPool = [];
         this.createThreatPool();
-
-        // Re-call render method to start the game based on initial values???
-        // this.render(context, 0); // 0 as initial deltaTime
     }
 
     start() {
@@ -417,14 +408,6 @@ class Game {
             // condition for updating the element
             if (!this.pause) mechaYoungling.update(deltaTime);
         }
-
-        // // filtering mechaPikeYounglings from the threarPool
-        // this.threatPool.filter(threat => threat instanceof MechaPikeYounglings).forEach(threat => {
-        //     threat.start();
-        //     threat.draw(context);
-        //     // condition for updating the element
-        //     if (!this.pause) threat.update(deltaTime);
-        // });
 
         // Filter the floatingSringsArray and remove all active messages
         this.floatingstringsArray = this.floatingstringsArray.filter(msg => !msg.free);
@@ -494,7 +477,6 @@ class Level1 extends Game {
         this.maxThreats = 30;
         this.threatTimer = 0;
         this.threatInterval = 1000;
-        // this.toggleAction();
     }
 
     createThreatPool() {
@@ -532,7 +514,6 @@ class Level2 extends Game {
         this.maxThreats = 40;
         this.threatTimer = 0;
         this.threatInterval = 1000;
-        // this.toggleAction();
     }
 
     createThreatPool() {
@@ -572,7 +553,6 @@ class Level3 extends Game {
         this.maxThreats = 40;
         this.threatTimer = 0;
         this.threatInterval = 1000;
-        // this.toggleAction();
     }
 
     createThreatPool() {
@@ -695,7 +675,6 @@ window.addEventListener('load', function () {
         const deltaTime = timeStamp - lastTime;
         lastTime = timeStamp;
         ctx.clearRect(0, 0, canvas.width, canvas.height); // method to delete old animation frame drawn on canvas since animation is a loop that keeps drawing so we only see the current and becomes moving/animated objects
-        // game.start();
         currentLevel.render(ctx, deltaTime); // Start the current level
         // Check if the game is over
         if (currentLevel.gameOver && (currentLevel.score >= currentLevel.winningScore) && !currentLevel.pause) {
