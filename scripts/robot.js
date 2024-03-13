@@ -35,15 +35,15 @@ class Robot {
             y: this.y - 40,
             radius: this.radius * 2.4 // to be double checked
         };
-        this.powerUp = false; //******* */
-        this.shieldColor = 'hsla(56, 89%, 54%, 0.571)';
-        this.shieldRadius = this.powerUp ? this.radius + 130 : this.radius - 10; // *******
-        this.shieldObject = {
-            x: this.x,
-            y: this.y - 30,
-            radius: this.shieldRadius
-        };
-        this.shieldDescription = '';
+        // this.powerUp = false; //******* */
+        // this.shieldColor = 'hsla(56, 89%, 54%, 0.571)';
+        // this.shieldRadius = this.powerUp ? this.radius + 130 : this.radius - 10; // *******
+        // this.shieldObject = {
+        //     x: this.x,
+        //     y: this.y - 30,
+        //     radius: this.shieldRadius
+        // };
+        // this.shieldDescription = '';
         this.tracking = false;
         this.mouvementAngle = 0;
         // mouse is the trigger pointer for mouse or touch
@@ -104,35 +104,35 @@ class Robot {
 
 
             // drawing the robot shield
-            context.save();
-            context.shadowOffsetX = 5;
-            context.shadowOffsetY = -1;
-            context.shadowColor = 'hsla(29, 89%, 44%, 0.671)';
-            context.beginPath();
-            context.arc(this.x, this.y - 30, this.shieldRadius, -1.24, Math.PI * 0.4);
-            // Setting the robot shield color : style (shieldColor) hardcoded untill result needed
-            context.strokeStyle = this.shieldColor;
-            context.lineWidth = 8;
-            context.stroke();
-            context.restore()
+            // context.save();
+            // context.shadowOffsetX = 5;
+            // context.shadowOffsetY = -1;
+            // context.shadowColor = 'hsla(29, 89%, 44%, 0.671)';
+            // context.beginPath();
+            // context.arc(this.x, this.y - 30, this.shieldRadius, -1.24, Math.PI * 0.4);
+            // // Setting the robot shield color : style (shieldColor) hardcoded untill result needed
+            // context.strokeStyle = this.shieldColor;
+            // context.lineWidth = 8;
+            // context.stroke();
+            // context.restore()
 
 
 
             // for debug mode: adding outer bow for Robot Shield border ** started from circle and hardcoded untill result needed
-            if (this.game.debug) {
-                context.save();
-                context.beginPath();
-                context.arc(this.x + 5, this.y - 30, this.shieldRadius + 2, -1.24, Math.PI * 0.4);
-                context.stroke();
-                context.restore()
+            // if (this.game.debug) {
+            //     context.save();
+            //     context.beginPath();
+            //     context.arc(this.x + 5, this.y - 30, this.shieldRadius + 2, -1.24, Math.PI * 0.4);
+            //     context.stroke();
+            //     context.restore()
                 
-                // context.save();
-                context.stroke();
-                // context.fillStyle = 'hsla(240, 2%, 91%, 0.959)';
-                context.font = '28px Bangers';
-                context.fillText(this.shieldDescription, this.x + this.shieldRadius + 15, this.y - 50);
-                context.restore();
-            }
+            //     // context.save();
+            //     context.stroke();
+            //     // context.fillStyle = 'hsla(240, 2%, 91%, 0.959)';
+            //     context.font = '28px Bangers';
+            //     context.fillText(this.shieldDescription, this.x + this.shieldRadius + 15, this.y - 50);
+            //     context.restore();
+            // }
 
 
             // Body
