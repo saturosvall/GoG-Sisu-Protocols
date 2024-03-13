@@ -129,7 +129,6 @@ class Asteroid extends Threats {
         if (!this.free) {
             this.angle += this.va;
             // this.x -= this.speed; // to move to the right on the horizontal x axis change to -= to move from left
-
             if (this.game.checkCircleCollision(this, this.game.planet)) {
                 this.highThreatVsPlanetCollisionResult();
             } else if (this.game.checkCircleCollision(this, this.game.robotBody)) {
