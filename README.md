@@ -9,7 +9,7 @@
 - [Verkkosivun kuvaus](#verkkosivun-kuvaus)
 - [Pelin kuvaus](#pelin-kuvaus)
 - [Kuinka Pelata](#kuinka-pelata)
-- [Pelin Ominaisuudet](#pelin-ominaisuudet)
+- [Pelin ominaisuudet](#pelin-ominaisuudet)
 - [Asennus](#asennus)
 - [Käyttö](#käyttö)
 - [Osallistuminen](#osallistuminen)
@@ -33,20 +33,20 @@ Peli loppuu jos suojausprosentti on nolla ennen riittävän fotonimäärän saav
 
 ## Kuinka Pelata
 
-1. Pääset peliin verkkosivun kautta
-2. Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista varten. Suluissa vastaava näppäinkomento tietokoneella pelaamista varten:
+Pääset peliin verkkosivun kautta
+Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista varten. Suluissa vastaava näppäinkomento tietokoneella pelaamista varten:
 - Fullscreen-painike (F)
 - Restart-painike (R)
 - Help-painike (H)
 - Taukopainike (P)
 - Aktivointipainike (A)
-3. Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
-4. **Tietokoneella pelatessa** hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
-5. **Kosketusnäyttölaitteella pelatessa** sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
-6. Pelissä on viisi tasoa, joissa jokaisessa on uusia vihollisia ja erilainen planeetan suojaava fotonimäärätavoite.
-5. Verkkosivulla on esitelty tasot ja niiden toimintaympäristöt sekä viholliset tarkemmin.
+Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
+**Tietokoneella pelatessa** hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
+**Kosketusnäyttölaitteella pelatessa** sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
+Pelissä on viisi tasoa, joissa jokaisessa on uusia vihollisia ja erilainen planeetan suojaava fotonimäärätavoite.
+Verkkosivulla on esitelty tasot ja niiden toimintaympäristöt sekä viholliset tarkemmin.
 
-## Pelin Ominaisuudet
+## Pelin ominaisuudet
 
 - Peli on pelattavissa tietokoneella ja kosketusnäyttötabletilla
 - UI, jossa näkyy kerätyt fotonit ja suojakilven prosenttiosuus 
@@ -78,6 +78,14 @@ Jos haluat osallistua projektiin, voit vapaasti haarukoida arkiston ja lähettä
 - Spicy Youghurt vinkkejä ja niksejä canvas-animaatiosta
 - W3Schools
 - MDN Asiakirjat
+- HoanghoDev of LunDev
+- Pixabay
+- PngWing.com
+- Optimizilla
+- imageresizer.com
+- Canva
+- 123apps
+- mp3cut.net
 
 ### Kolmannen osapuolen kirjastot
 
