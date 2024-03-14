@@ -24,8 +24,10 @@ Pelin verkkosivu on xxx tekniikalla toteutettu. Verkkosivun avulla pelaaja pää
 ## Pelin kuvaus
 
 GoG: The SISU Protocols on viisi eri vaikeustasoa sisältävä peli, jossa pelaajan tehtävänä on suojella kunkin tason planeettaa ulkoavaruudesta tulevilta hyökkäyksiltä. Muukalaislajit himoitsevat planeetan fotoneja, jotka ovat planeetan suojakilven elinehto. 
-1. Fotonien kerääminen: Pelaajan tulee kerätä riittävä määrä fotoneja **tuhoamalla vihollisia** ja **keräämällä väisteleviä hahmoja**.  Jokaisella hyökkääjällä on oma arvo, joten vihollisen tuhoaminen tai hahmon kerääminen kerryttää pelaajalle fotoneja. Fotonimäärä riippuu vihollisen laadusta. 
-2. Fotonien menettäminen: fotoneja menettää jos vihollinen ehtii osua planeettaan.
+
+Fotonien kerääminen: Pelaajan tulee kerätä riittävä määrä fotoneja **tuhoamalla vihollisia** ja **keräämällä väisteleviä hahmoja**.  Jokaisella hyökkääjällä on oma arvo, joten vihollisen tuhoaminen tai hahmon kerääminen kerryttää pelaajalle fotoneja. Fotonimäärä riippuu vihollisen laadusta. 
+
+Fotonien menettäminen: fotoneja menettää jos vihollinen ehtii osua planeettaan.
 
 Tason vaatima fotonimäärä on kerättävä ennen kuin suojausprosentti saavuttaa nollan tai SISU menettää elämät. Jos vaadittavan fotonimäärän saavuttaa, planeetan suojakilpi aktivoituu ja planeetta on turvassa. Tällöin pelaaja pääsee siirtymään seuraavalle tasolle.
 
@@ -40,6 +42,8 @@ Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista 
 - Help-painike (H)
 - Taukopainike (P)
 - Aktivointipainike (A)
+- 
+
 Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
 **Tietokoneella pelatessa** hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
 **Kosketusnäyttölaitteella pelatessa** sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
