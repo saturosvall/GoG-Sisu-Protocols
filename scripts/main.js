@@ -505,7 +505,7 @@ class Level2 extends Game {
         // initializing level specific value
         this.background.image = document.getElementById('level2Background');
         this.planet.image = document.getElementById('level2Planet');
-        this.layer.image = document.getElementById('layer1');
+        this.layer.image = document.getElementById('layer2');
         this.ui.pauseImage = document.getElementById('level2PauseMenu');
         this.winningScore = 50;
         this.gameTime = 0;
