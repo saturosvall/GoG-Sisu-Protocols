@@ -35,15 +35,15 @@ class Layer {
         this.height = 1080;
         this.scaledWidth = this.width 
         this.scaledHeight = this.height
-        this.x = -1200; // starts from spesific position from left outside canvas
+        this.x = -1500; // starts from spesific position from left outside canvas
         this.y = 0;
     }
 
     update() {
         if (!this.game.pause) {
-            this.x += 1  // layer moving from left to right certain speed
+            this.x += 0.8  // layer moving from left to right certain speed
             if (this.x > this.width)  // when reaching this position starts again
-                this.x = -1200;
+                this.x = -1500;
             // console.log(this.x);
         }
 

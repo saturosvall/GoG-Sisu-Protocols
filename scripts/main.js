@@ -583,7 +583,7 @@ class Level4 extends Game {
         // initializing level specific value
         this.background.image = document.getElementById('level4Background');
         this.planet.image = document.getElementById('level4Planet');
-        this.layer.image = document.getElementById('layer1');
+        this.layer.image = document.getElementById('layer4');
         this.ui.pauseImage = document.getElementById('level4PauseMenu');
         this.winningScore = 150;
         this.gameTime = 0;
@@ -623,7 +623,7 @@ class Level5 extends Game {
         // initializing level specific value
         this.background.image = document.getElementById('level5Background');
         this.planet.image = document.getElementById('level5Planet');
-        this.layer.image = document.getElementById('layer1');
+        this.layer.image = document.getElementById('layer5');
         this.ui.pauseImage = document.getElementById('level5PauseMenu');
         this.winningScore = 250;
         this.gameTime = 0;
