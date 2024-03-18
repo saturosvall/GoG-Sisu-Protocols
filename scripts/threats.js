@@ -265,7 +265,7 @@ class Alien extends Threats {
         }
     }
     // Method to update the object
-    update() {
+    update(deltaTime) {
         super.update();
         if (!this.free) {
             // Applying a mouvement animation
