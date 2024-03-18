@@ -44,7 +44,6 @@ class Layer {
             this.x += 0.8  // layer moving from left to right certain speed
             if (this.x > this.width)  // when reaching this position starts again
                 this.x = -1500;
-            // console.log(this.x);
         }
 
     }

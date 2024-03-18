@@ -138,7 +138,6 @@ class Asteroid extends Threats {
     }
 }
 
-
 class BabyAsteroid extends Threats {
     constructor(game) {
         super(game);
@@ -222,6 +221,8 @@ class Alien extends Threats {
         this.frameX = 0;
         this.frameY = Math.floor(Math.random() * 3);
         this.maxFrame = 12;
+        this.animationTimer = 0;
+        this.animationInterval = 1000 / 5;  // spritesheet animation speed adjustment
         this.speed = Math.random() * 4.1 + 0.4; // random speed from 0.2 to 4.7 fps
         this.lives = 1;
         this.lifeReset = this.lives;
@@ -272,10 +273,14 @@ class Alien extends Threats {
             this.y = this.y + Math.sin(this.mouvementAngle) * 4; // how much up & down
             // update rotation angle
             // Sprite animation
-            if (this.frameX < this.maxFrame) {
-                this.frameX++;
+            if (this.animationTimer > this.animationInterval) {
+                if (this.frameX < this.maxFrame) {
+                    this.frameX++;
+                } else {
+                    this.frameX = 0;
+                }
             } else {
-                this.frameX = 0;
+                this.animationTimer += deltaTime;
             }
             // this.x -= this.speed; // += to move to the right on the horizontal x axis change to -= to move from left
             if (this.game.checkCircleCollision(this, this.game.planet)) {
@@ -455,7 +460,6 @@ class AstroMechaBat extends Threats {
         }
     }
 }
-
 
 class SpaceHornet extends Threats {
     constructor(game) {
