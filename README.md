@@ -27,7 +27,7 @@ GoG: The SISU Protocols on viisi eri vaikeustasoa sisältävä peli, jossa pelaa
 
 Fotonien kerääminen: Pelaajan tulee kerätä riittävä määrä fotoneja **tuhoamalla vihollisia** ja **keräämällä väisteleviä hahmoja**.  Jokaisella hyökkääjällä on oma arvo, joten vihollisen tuhoaminen tai hahmon kerääminen kerryttää pelaajalle fotoneja. Fotonimäärä riippuu vihollisen laadusta. 
 
-Fotonien menettäminen: fotoneja menettää jos vihollinen ehtii osua planeettaan.
+Fotonien menettäminen: fotoneja menettää jos vihollinen ehtii osua planeettaan tai SISUUN.
 
 Tason vaatima fotonimäärä on kerättävä ennen kuin suojausprosentti saavuttaa nollan tai SISU menettää elämät. Jos vaadittavan fotonimäärän saavuttaa, planeetan suojakilpi aktivoituu ja planeetta on turvassa. Tällöin pelaaja pääsee siirtymään seuraavalle tasolle.
 
@@ -35,18 +35,23 @@ Peli loppuu jos suojausprosentti on nolla ennen riittävän fotonimäärän saav
 
 ## Kuinka Pelata
 
-Pääset peliin verkkosivun kautta
+Pääset peliin verkkosivun kautta.
 Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista varten. Suluissa vastaava näppäinkomento tietokoneella pelaamista varten:
 - Fullscreen-painike (F)
 - Restart-painike (R)
 - Help-painike (H)
 - Taukopainike (P)
 - Aktivointipainike (A)
-- 
+
 
 Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
-**Tietokoneella pelatessa** hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
-**Kosketusnäyttölaitteella pelatessa** sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
+##### **Tietokoneella pelatessa** 
+
+Hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. 
+Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
+
+##### **Kosketusnäyttölaitteella pelatessa** 
+Sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
 Pelissä on viisi tasoa, joissa jokaisessa on uusia vihollisia ja erilainen planeetan suojaava fotonimäärätavoite.
 Verkkosivulla on esitelty tasot ja niiden toimintaympäristöt sekä viholliset tarkemmin.
 
