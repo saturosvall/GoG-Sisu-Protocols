@@ -45,12 +45,12 @@ Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista 
 
 
 Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
-##### **Tietokoneella pelatessa** 
+#### **Tietokoneella pelatessa** 
 
 Hiiren vasemmalla näppäimellä tarvittava määrä painalluksia hyökkääjään osuen. 
 Näppäimistön A-näppäimellä vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
 
-##### **Kosketusnäyttölaitteella pelatessa** 
+#### **Kosketusnäyttölaitteella pelatessa** 
 Sormella/kosketusnäyttökynällä tarvittava määrä painalluksia hyökkääjään osuen. Pelin vasemmassa reunassa aktivointipainike, josta vaihdetaan painalluksen toiminto (punainen tuhoaa ja sininen kerää).
 Pelissä on viisi tasoa, joissa jokaisessa on uusia vihollisia ja erilainen planeetan suojaava fotonimäärätavoite.
 Verkkosivulla on esitelty tasot ja niiden toimintaympäristöt sekä viholliset tarkemmin.
