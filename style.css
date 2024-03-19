@@ -34,7 +34,6 @@ nav .menu {
   padding: 0 1em;
   background: #08162438;
   border-radius: 30px;
-  /* padding: 2px 20px 0; */
   /* margin: 1em 1em; */
   box-shadow: 0 1px 25px hsl(223, 99%, 62%);
 }
@@ -100,7 +99,6 @@ nav .menu {
   margin: 0 auto;
   padding: 1em 1em;
   margin: 1em 1em;
-  /* box-shadow: 0 0px 25px hsl(223, 99%, 62%); */
 }
 .complete {
   height: 60%;
@@ -112,24 +110,14 @@ nav .menu {
   background-position-x: right;
   display: flex;
   align-items: center;
-  /* border-top-left-radius: 20px;
-  border-top-right-radius: 20px; */
-  /* box-shadow: 0 3px 25px hsl(355, 78%, 55%); */
-  /* box-shadow: 0 3px 25px hsl(223,99%,62%); */
-  /* box-shadow: 0 -1px 15px hsl(223, 99%, 62%); */
 }
 
 .InnerDiv {
   height: 45%;
   width: 100%;
-  /* background-image: url(./assets/img/img3.png); */
   background-size: auto;
   display: flex;
   align-items: center;
-  /* border-top-left-radius: 20px; */
-  /* border-top-right-radius: 20px; */
-  /* box-shadow: 0 3px 25px hsl(223,99%,62%); */
-  /* box-shadow: 0 3px 25px hsl(355, 78%, 55%); */
 }
 .InnerDiv > .video-text:after {
   position: absolute;
@@ -146,7 +134,6 @@ nav .menu {
 
 .center {
   width: 64%;
-  /* padding-left: 25px; */
 }
 
 .center .title {
@@ -168,8 +155,6 @@ nav .menu {
   color: #fff;
   font-size: 1.8em;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.925);
-  /* padding-right: 55px; */
-  /* margin: 0 0 5px 1.5rem; */
 }
 
 .center .btns button {
@@ -180,8 +165,6 @@ nav .menu {
   font-size: 3em;
   font-weight: 550;
   padding: 0 10px;
-  /* margin-top: 2rem;
-  margin-left: 2rem; */
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
@@ -217,7 +200,6 @@ nav .menu {
   border-radius: 1em;
   font-size: 3em;
   font-weight: 500;
-  /* padding: 0 10px; */
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
@@ -227,14 +209,12 @@ nav .menu {
   margin: 2em 1em;
   box-shadow: 0 1px 25px hsl(223, 99%, 62%);
 }
+
 /* Intro video section */
 
 .intro-video-section {
   height: 100%;
   position: relative;
-  /* border-top-left-radius: 20px; */
-  /* border-top-right-radius: 20px; */
-  /* box-shadow: 0 3px 25px hsl(355, 78%, 55%); */
   margin: 1em 0px;
   box-shadow: 0 13px 25px hsl(223, 99%, 62%);
 }
@@ -289,14 +269,13 @@ nav .menu {
 }
 
 /* carousel */
+
 .carousel {
   height: 100%;
   margin-top: -20px;
   width: 100%;
   overflow: hidden;
   position: relative;
-  /* border-top-left-radius: 20px; */
-  /* border-top-right-radius: 20px; */
   margin: 1.4em 0px;
   box-shadow: 0 13px 25px hsl(223, 99%, 62%);
 }
@@ -578,7 +557,6 @@ nav .menu {
 .h2p-container {
   width: 100%;
   min-height: 100vh;
-  /* background-image: url('./assets/img/pngwing-reversed.png'); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -608,7 +586,6 @@ nav .menu {
 }
 
 .descr {
-  /* display: block; */
   color: #fff;
   font-size: 3.2em;
   margin: 2em 0.5em;
@@ -634,13 +611,11 @@ nav .menu {
   box-sizing: border-box;
   flex: 0 25em;
   background: #fff;
-  /* background: transparent; */
   border-radius: 0.7em;
   margin: 1em 1em;
   box-shadow: 0px 3rem 6rem rgba(34, 33, 33, 0.2);
   cursor: pointer;
   transition: 0.2s;
-  /* width: 20em; */
   width: calc(33.33% -1em); /*Adjusted width for three items per row*/
 }
 .h2p-content-section .info-card:hover {
@@ -654,15 +629,12 @@ nav .menu {
 .h2p-content-section .info-card img {
   width: 100%;
   border-radius: 0.8em;
-  /* background: linear-gradient(to right, #00093c, hsla(0, 92%, 24%, 0.733)); */
-  /* background: transparent; */
   height: auto;
 }
 .h2p-content-section .info-card h2 {
   margin: 15px 0px;
   padding: 0px 10px;
   font-size: 28px;
-  /* background: #fff; */
   color: hsl(330, 83%, 32%);
 }
 /*Alphabet highlight*/
@@ -776,9 +748,7 @@ footer {
   line-height: 45px;
   text-align: center;
   background-image: linear-gradient(to right, #3f8cd6, #38deec);
-  /* color: #000; */
   color: #f6f8fa;
-  /* color: rgb(41, 18, 68); */
   margin: 0 5px 0 5px;
 }
 
