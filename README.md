@@ -42,6 +42,7 @@ Pelin vasemmassa reunassa ovat painikkeet kosketusnäyttölaitteella pelaamista 
 - Help-painike (H)
 - Taukopainike (P)
 - Aktivointipainike (A)
+- Debug-tila (D) (vain laitteilla, joissa näppäimistö)
 
 
 Estä vihollisia osumasta planeettaan ja SISUUN joko keräämällä tai tuhoamalla vihollinen.
