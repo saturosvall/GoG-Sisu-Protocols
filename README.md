@@ -19,7 +19,7 @@
 
 ## Verkkosivun kuvaus
 
-Pelin verkkosivu on xxx tekniikalla toteutettu. Verkkosivun avulla pelaaja pääsee tutustumaan pelin taustalla olevaan tarinaan ja katsomaan videopätkiä pelistä. Verkkosivulla pelaaja voi tutustua minkälaisia vihollisia pelissä tulee kohtaamaan ja minkälaisissa erilaisissa galakseissa pelaaja pääsee planeettoja suojelemaan.
+Pelin verkkosivu on HTML-, CSS- ja JS-tekniikoilla toteutettu. Verkkosivun avulla pelaaja pääsee tutustumaan pelin taustalla olevaan tarinaan ja katsomaan videopätkiä pelistä. Verkkosivulla pelaaja voi tutustua minkälaisia vihollisia pelissä tulee kohtaamaan ja minkälaisissa erilaisissa galakseissa pelaaja pääsee planeettoja suojelemaan.
 
 ## Pelin kuvaus
 
